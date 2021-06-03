@@ -8,7 +8,7 @@ function Firstclass(a,b) {
         }
     }
     else {
-        return  'Phương trình có một nghiệm là x: ' + -b/a ;
+        return  'Phương trình có một nghiệm là x: ' + (-b/a ) ;
     }
 }
  let result = Firstclass(5,8)

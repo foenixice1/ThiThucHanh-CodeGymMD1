@@ -27,8 +27,8 @@ class Animal {
 let objAnimal1 = new Animal();
 objAnimal1.setName('Elephant')
 objAnimal1.setWeight(45.6)
-alert(objAnimal1.ToString());
+console.log(objAnimal1.ToString());
 let objAnimal2 = new Animal("cat",1.5);
 objAnimal2.setName("Mouse")
 objAnimal2.setWeight(2)
-alert(objAnimal2.ToString())
+console.log(objAnimal2.ToString())
