@@ -1,14 +1,15 @@
 function Firstclass(a,b) {
-    if (a == 0) {
-        if (b == 0) {
-            document.write('Phương trình có vô số nghiệm')
+    if (a === 0) {
+        if (b === 0) {
+            return  'Phương trình có vô số nghiệm' ;
         }
         else {
-            document.write('Phương trình vô nghiệm')
+            return  'Phương trình vô nghiệm'
         }
     }
     else {
-        document.write('Phương trình có một nghiệm là x: ' + (-b/a) )
+        return  'Phương trình có một nghiệm là x: ' + -b/a ;
     }
 }
- let giaiPT = Firstclass(5,8)
+ let result = Firstclass(5,8)
+document.write(result) ;
